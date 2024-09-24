@@ -6,7 +6,7 @@ on:
   workflow_dispatch:  # 允許手動觸發
 
 env:
-  UPSTREAM_REPO: ${{ vars.UPSTREAM_REPO || 'https://github.com/geekan/MetaGPT.git' }}
+  UPSTREAM_REPO: ${{ vars.UPSTREAM_REPO || 'https://github.com/stanford-oval/storm.git' }}
   MAIN_BRANCH: ${{ vars.MAIN_BRANCH || 'main' }}
 
 jobs:
